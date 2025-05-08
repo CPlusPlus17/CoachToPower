@@ -1,0 +1,11 @@
+<properties>
+    <property id="cp" type="number">0</property> <!-- Existing -->
+
+    <property id="thresholdPower" type="number">348</property> <!-- User's Threshold Power in Watts (example default) -->
+    <property id="powerZone1MinPercent" type="number">0</property>   <!-- Min of Zone 1 as % of TP -->
+    <property id="powerZone1MaxPercent" type="number">55</property>  <!-- Max of Zone 1 as % of TP -->
+    <property id="powerZone2MaxPercent" type="number">75</property>  <!-- Max of Zone 2 as % of TP -->
+    <property id="powerZone3MaxPercent" type="number">90</property>  <!-- Max of Zone 3 as % of TP -->
+    <property id="powerZone4MaxPercent" type="number">105</property> <!-- Max of Zone 4 as % of TP -->
+    <property id="powerZone5MaxPercent" type="number">120</property> <!-- Max of Zone 5 as % of TP -->
+</properties>

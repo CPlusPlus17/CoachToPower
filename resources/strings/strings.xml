@@ -1,0 +1,15 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">ctp</string>
+    <string id="settings_cp">CP (Legacy - Use TP)</string>
+
+    <string id="settings_thresholdPower">Threshold Power (W)</string>
+
+    <string id="settings_powerZone1MinPercent">PZone 1 Min (% TP)</string>
+    <string id="settings_powerZone1MaxPercent">PZone 1 Max (% TP)</string>
+    <string id="settings_powerZone2MaxPercent">PZone 2 Max (% TP)</string>
+    <string id="settings_powerZone3MaxPercent">PZone 3 Max (% TP)</string>
+    <string id="settings_powerZone4MaxPercent">PZone 4 Max (% TP)</string>
+    <string id="settings_powerZone5MaxPercent">PZone 5 Max (% TP)</string>
+    <string id="ErrorNoDeviceHRZones">Setup HR Zones!</string> <!-- User-friendly error for missing device HR zones -->
+    <string id="ErrorHrOutOfZoneRange">HR Out of Range</string> <!-- User-friendly error for HR target not matching any zone -->
+</strings>

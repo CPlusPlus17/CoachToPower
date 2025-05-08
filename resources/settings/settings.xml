@@ -1,0 +1,24 @@
+<settings>
+    <setting propertyKey="@Properties.thresholdPower" title="@Strings.settings_thresholdPower">
+        <settingConfig type="numeric" min="0" max="999" required="true"/>
+    </setting>
+
+    <setting propertyKey="@Properties.powerZone1MinPercent" title="@Strings.settings_powerZone1MinPercent">
+        <settingConfig type="numeric" min="0" max="200" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.powerZone1MaxPercent" title="@Strings.settings_powerZone1MaxPercent">
+        <settingConfig type="numeric" min="1" max="500" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.powerZone2MaxPercent" title="@Strings.settings_powerZone2MaxPercent">
+        <settingConfig type="numeric" min="1" max="500" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.powerZone3MaxPercent" title="@Strings.settings_powerZone3MaxPercent">
+        <settingConfig type="numeric" min="1" max="500" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.powerZone4MaxPercent" title="@Strings.settings_powerZone4MaxPercent">
+        <settingConfig type="numeric" min="1" max="500" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.powerZone5MaxPercent" title="@Strings.settings_powerZone5MaxPercent">
+        <settingConfig type="numeric" min="1" max="5000" required="true"/>
+    </setting>
+</settings>
