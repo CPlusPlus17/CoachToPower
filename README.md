@@ -2,6 +2,14 @@
 
 This repository contains a Garmin Connect IQ data field (`ctpView`) that maps heart‑rate–based workout steps into power‑based pacing targets in real time. By combining the watch’s built‑in run HR zones with user‑configured FTP (Functional Threshold Power) zones, `ctpView` displays a green/red live indicator showing whether you’re hitting the intended power range for each workout segment.
 
+| **HR Zone** | **HR %LTHR** | **Example HR (bpm)** | **Power Zone** | **%FTP**    | **Example Power (W)** |
+|-------------|--------------|----------------------|----------------|-------------|-----------------------|
+| Zone 1      | < 85 %       | < 148                | Zone 1         | < 55 %      | < 191                 |
+| Zone 2      | 85 – 89 %    | 148 – 155            | Zone 2         | 56 – 75 %   | 195 – 261             |
+| Zone 3      | 90 – 93 %    | 157 – 162            | Zone 3         | 76 – 89 %   | 264 – 310             |
+| Zone 4      | 94 – 97 %    | 164 – 169            | Zone 4         | 90 – 105 %  | 313 – 366             |
+| Zone 5      | > 97 %       | > 169                | Zone 5         | 106 – 120 % | 369 – 418             |
+
 ![ctpView in action](preview.png)
 
 ## Features
@@ -66,6 +74,8 @@ The display shows:
 where `275W` is your current (smoothed) power, and `(264–310)` is the target band.
 
 ## Extending & Debugging
+
+
 
 * **Adjust Sample Window**: Change `POWER_SAMPLE_COUNT` for longer/shorter smoothing.
 * **Enable/Disable Logging**: Wrap `System.println` calls behind a `DEBUG` flag in `initialize()`.
