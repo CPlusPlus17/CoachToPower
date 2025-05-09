@@ -2,6 +2,8 @@
 
 This repository contains a Garmin Connect IQ data field (`ctpView`) that maps heart‑rate–based workout steps into power‑based pacing targets in real time. By combining the watch’s built‑in run HR zones with user‑configured FTP (Functional Threshold Power) zones, `ctpView` displays a green/red live indicator showing whether you’re hitting the intended power range for each workout segment.
 
+![ctpView in action](preview.png)
+
 ## Features
 
 * **Dual Mapping**: Converts HR‑target workout steps into matching power zones using device‑detected run HR zones.
